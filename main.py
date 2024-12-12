@@ -1,6 +1,6 @@
 from machine import Pin, Timer
 
-led = Pin(id=2 , mode=Pin.OUT) #specified argument from doc.micropython
+led = Pin(3, mode=Pin.OUT) #specified argument from doc.micropython
 tim = Timer()
 def tick(timer):
     global led
